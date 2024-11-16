@@ -11,7 +11,7 @@ export const SwitcheHeader = () => {
   return (
     <header className="h-[60px] inset-y-0 w-80 z-50">
         <div className="py-4 px-2 md:border-r md:border-b h-full flex items-center bg-muted/40 shadow-sm">
-        <StoreSwitcher items={fakeStores} />
+        <StoreSwitcher/>
         </div>
       </header>
   )
