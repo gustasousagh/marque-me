@@ -44,7 +44,7 @@ export function Hero() {
           </AuthLoading>
           <Authenticated>
             <Button asChild>
-              <Link href="/dashboard">Dashboard</Link>
+              <Link href="/user/appointments">Dashboard</Link>
             </Button>
           </Authenticated>
           <Unauthenticated>
@@ -76,10 +76,10 @@ export function Hero() {
               </AuthLoading>
               <Authenticated>
                 <Button asChild>
-                  <Link href="/settings">Meus agendamentos</Link>
+                  <Link href="/user/appointments">Meus agendamentos</Link>
                 </Button>
                 <Button variant="secondary" onClick={() => {}}>
-                <Link href="/dashboard">Dashboard</Link>
+                <Link href="/user/appointments">Dashboard</Link>
                 </Button>
               </Authenticated>
               <Unauthenticated>
